@@ -1,0 +1,70 @@
+body {
+    background-color: #008000; /* Set the main background color to green */
+    color: yellowgreen; /* Change text color for better contrast on green */
+
+    /* Default styles for smaller screens */
+.container {
+    width: 100%; /* Full width by default */
+    padding: 10px; /* Optional padding */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: rgb(50, 53, 205); /* Background color for visibility */
+}
+
+/* Media query for large screens */
+@media (min-width: 1024px) { /* You can adjust the min-width value as needed */
+    .container {
+        width: 900px; /* Fixed width for large screens */
+        margin: 0 auto; /* Center the container horizontally */
+    }
+}
+
+}
+
+header {
+    background-color: #006400; /* lighter green for header */
+}
+
+.hero {
+    background-color: #32CD32; /* Lighter green for the hero section */
+}
+
+.stats {
+    background-color: #228B22; /* Forest green for the stats section */
+}
+
+.services {
+    background-color: #32CD32; /* Lighter green for the services section */
+}
+
+.specialties {
+    background-color: #228B22; /* Darker green for specialties section */
+}
+
+.steps-section {
+    background-color: #32CD32; /* Lighter green for the steps section */
+}
+
+.chefs {
+    background-color: #228B22; /* Darker green for chefs section */
+}
+
+.facility {
+    background-color: #32CD32; /* Lighter green for the facility section */
+}
+
+footer {
+    background-color: #006400; /* Dark green for footer */
+}
+
+.btn {
+    background-color: #004400; /* Dark green for buttons */
+    color: yellow bold;
+}
+
+.btn:hover {
+    background-color: #32CD32; /* Lighter green on hover */
+}
+
+a {
+    color: yellow; /* yellow for all links */
+}
